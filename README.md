@@ -6,4 +6,4 @@ Welcome to the News App Flutter project! This is a simple app to demonstrate the
 
 Click on the GIF below to see a demonstration of the app flow:
 
-![App Flow GIF](https://github.com/sahildev001/news_app_flutter/raw/main/docs/app_flow.gif)
+<img src="https://github.com/sahildev001/news_app_flutter/raw/main/docs/app_flow.gif" alt="App Flow GIF" width="320" height="240">
