@@ -97,7 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       return NewsList(news: state.news);
                     }
                   } else {
-                    print("open News Swiper");
+
                     if (state.news.isEmpty) {
                       return Center(
                         child: Text("No news found"),

@@ -15,7 +15,7 @@ class NewsRepository {
 
     if (response.statusCode == 200) {
       final jsonData = json.decode(response.body);
-      print("response :: ${jsonData}");
+
       final newsList = jsonData['articles'] as List<dynamic>;
       return newsList.map((newsJson) => NewsModel(
         title: newsJson['title']??'',

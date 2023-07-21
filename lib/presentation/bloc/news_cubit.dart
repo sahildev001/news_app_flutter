@@ -67,8 +67,7 @@ class NewsCubit extends Cubit<NewsState> {
       displayedNews = allNews
           .where((news) =>
       news.title.toLowerCase().contains(query.toLowerCase())).toList();
-      print ("displayedNews length ::  ${displayedNews.length}");
-      print ("allnews  length ::  ${allNews.length}");
+
     }
     emit(NewsLoaded(displayedNews));
   }
